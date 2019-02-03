@@ -15,3 +15,14 @@ data2.assign(tf.tensor1d([4, 12, 5, 6, 56, 3, 45, 5]));
 
 //Print the data
 data2.print();
+
+const data3 = tf.tensor1d([4, 6, 5, 9]);
+const data4 = tf.tensor1d([2, 5, 7, 8]);
+
+// Print before operation
+data3.print();
+data4.print();
+
+// Add and multiply
+data3.add(data4).print();
+data3.mul(data4).print();
